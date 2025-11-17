@@ -2,16 +2,16 @@
 I implemented a PyTorch Lightning version of DDPM based on the original TensorFlow source code. The model is 35.7M in size and was tested on CIFAR10-50k (i.e., the CIFAR10 training set). Except for not using gradient clipping, all other settings match the original paper, and the obtained metrics are very close to those reported. Since I lacked reproduction examples while reimplementing the model, I’m sharing this.
 ## Results
 
-<img src=".\pic\Results.png" alt="Results" style="zoom:150%;" />
+<img src=".\pic\Results.png" alt="Results" width="300" />
 
 |      | Vanilla | Reproduction |
 | ---- | ------- | ------------ |
 | IS   | 9.46    | 9.42         |
 | FID  | 3.17    | 3.14         |
 
-<img src=".\pic\samples.png" alt="samples" style="zoom:70%;" />
+<img src=".\pic\samples.png" alt="samples" width="300" />
 
-<img src=".\pic\progressive_samples.png" alt="progressive_samples" style="zoom:70%;" />
+<img src=".\pic\progressive_samples.png" alt="progressive_samples" width="300" />
 
 ## Experimental Setup
 
