@@ -9,9 +9,9 @@ I implemented a PyTorch Lightning version of DDPM based on the original TensorFl
 | IS   | 9.46    | 9.42         |
 | FID  | 3.17    | 3.14         |
 
-<img src=".\pic\samples.png" alt="samples" width="300" />
+<img src=".\pic\samples.png" alt="samples" width="400" />
 
-<img src=".\pic\progressive_samples.png" alt="progressive_samples" width="300" />
+<img src=".\pic\progressive_samples.png" alt="progressive_samples" width="400" />
 
 ## Experimental Setup
 
