@@ -36,7 +36,7 @@ python train_pl.py --dataset cifar10 --log_name fixedflip --pic_size 32 --lr 2e-
 
 ## Checkpoint
 
-[There is test checkpoint: epoch1799.ckpt]( https://pan.baidu.com/s/14-CBYu41lWSZ7wPUc3EgMQ?pwd=k9ag)
+[There is test checkpoint: epoch1799.ckpt]( https://pan.baidu.com/s/1464S53IkQg7-LNxF6c1oTw?pwd=nqjt)
 
 ## Requirements.txt
 
