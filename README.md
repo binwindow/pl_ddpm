@@ -4,10 +4,10 @@ I implemented a PyTorch Lightning version of DDPM based on the original TensorFl
 
 <img src=".\pic\Results.png" alt="Results" width="500" />
 
-|      | Vanilla | Reproduction |
-| ---- | ------- | ------------ |
-| IS   | 9.46    | 9.42         |
-| FID  | 3.17    | 3.14         |
+|      | Vanilla | Reproduction | Reproduction Without EMA |
+| :--- | :-----: | :----------: | :----------------------: |
+| IS   |  9.46   |     9.42     |          8.625           |
+| FID  |  3.17   |     3.14     |          9.9219          |
 
 <img src=".\pic\samples.png" alt="samples" width="400" />
 
